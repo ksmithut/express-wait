@@ -1,0 +1,7 @@
+{
+  "env": {
+    "mocha": true,
+  },
+  "extends": "eslint-config-ksmithut",
+  "rules": {}
+}

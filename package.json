@@ -1,0 +1,46 @@
+{
+  "name": "express-wait",
+  "version": "0.0.1",
+  "description": "An initialization step/middleware to let you start accepting requests immediately, but wait until some other asynchronous task have completed, such as database connections.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "check-cov": "istanbul check-coverage --statements 90 --functions 90 --branches 85 --lines 90",
+    "test": "istanbul cover _mocha",
+    "posttest": "npm run check-cov; npm run lint;"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksmithut/express-wait.git"
+  },
+  "keywords": [
+    "express",
+    "async"
+  ],
+  "author": "ksmithut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksmithut/express-wait/issues"
+  },
+  "homepage": "https://github.com/ksmithut/express-wait#readme",
+  "dependencies": {
+    "bluebird": "^3.0.5"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-as-promised": "^5.1.0",
+    "chai-spies": "^0.7.1",
+    "eslint": "^1.10.2",
+    "eslint-config-ksmithut": "^1.0.0",
+    "express": "^4.13.3",
+    "istanbul": "^0.4.1",
+    "mocha": "^2.3.4",
+    "mocha-lcov-reporter": "^1.0.0",
+    "supertest": "^1.1.0",
+    "supertest-as-promised": "^2.0.2"
+  }
+}
