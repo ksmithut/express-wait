@@ -8,5 +8,5 @@ node_js:
   - "0.11"
   - "0.10"
 env:
-  - secure:
+  - secure: Zf8+17ZArXlm91s9eAPjiinJURi+7t2wlwgdnKdDqYEigJ2OpP/k4sAJRLany71pMT6LQMR8sxn6WVT8cF1brc3JcRoxK3YVwPNC84dYM+fgYuV22z4G8Mja+zTgeveW6QtCvjN8IHghQZBA6+OXp4QQebLkGBTtRkT5u1nxsMTm71TWpCIdbDODEFX427111qx735XbBboZAIGLw8X5zUxy+29QRqDyMOt/ZizKQMk/7n60AEilTaI8Qg/aR4S2gVSrZXg7VzxA9+tCUyV8SPAKSGjXZihHN95q1gTWCcVDQrCs4UiuU/9IvX0Kh2D0/H8Y+MCiqcVWVntzwAkk314L0jB5SQuB+OCoNzGMiK6n2ipnm6H+zQgXrrPSfo2j8IMa8PHEYphh1Yr6z+RQpguL1C27gVVueE/kAZ+AKXNCFR7pI3V/cHqOQrkObg/UmyIYR+hYnRN2VqyRDg5kklJAkx4fXkeROeMIzKb6o/4AH3J2xxn5dbRoH+q4+ry/r4aRg8cBjN7yyouYn0GkYEZlyoecc1/3/L/xU0TOedbLBDu85vdDhTLm4joOquzNu0EQ16FxTmFfpxkTg7k0Wlv/smeaiKY6A6hmh+7UZBLggKD87dLOfP1S1zmWIZS6LktpbGKeikslNhzqGdp9bBYVpRdtNL0ayah3i5i70FY=
 after_success: npm run codeclimate
