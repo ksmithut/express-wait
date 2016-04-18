@@ -1,6 +1,6 @@
 {
   "name": "express-wait",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "An initialization step/middleware to let you start accepting requests immediately, but wait until some other asynchronous task have completed, such as database connections.",
   "main": "index.js",
   "scripts": {
